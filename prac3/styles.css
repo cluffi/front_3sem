@@ -154,11 +154,13 @@ footer {
 }
 
 .img1 {
+    width: 25%;
     float: left;
     margin-right: 1rem;
 }
 
 .img2 {
-    float: left;
-    margin-right: 1rem;
+    width: 25%;
+    float: right;
+    margin-right: 2.5rem;
 }
