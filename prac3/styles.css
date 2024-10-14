@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: violet !important;
+}
+
+a:active {
+    color: aqua !important;
+}
+
+a:visited {
+    color: thistle;
+}
+
+section {
+    background-color: thistle;
+}
+
+article {
+    background-color: yellowgreen;
+}
+
+aside {
+    position: relative;
+    top: 0%;
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 24px;
+}
+
+header {
+    padding: 40px;
+    width: 100%;
+    background-color: #404040;
+}
+
+main {
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #2d2d2d;
+}
+
+footer {
+    display: flex;
+    margin-top: auto;
+    padding: 40px;
+    background-color: #1f1f1f;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-height: 10rem;
+}
+
+.wrapper {
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-family: 'Arial', 'Verdana', sans-serif;
+}
+
+.squares {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.square1 {
+    background-color: blueviolet;
+    height: 50px;
+    width: 5%;
+    position: relative;
+    top: 50px;
+}
+
+.square1_1 {
+    background-color: chartreuse;
+    height: 50px;
+    width: 5%;  
+}
+
+.square2 {
+    background-color: cyan;
+    height: 50px;
+    width: 5%;
+    position: absolute;
+    top: 205px;
+    left: 30%;
+}
+
+.square3 {
+    background-color: darkblue;
+    height: 50px;
+    width: 5%;
+    position: fixed;
+    left: 25%;
+    top: 205px;
+}
+
+.square4 {
+    background-color: crimson;
+    height: 50px;
+    width: 5%;
+    position: sticky;
+    top: 50px;
+    left: 20%;
+}
+
+.header_of_website {
+    position: relative;
+    left: 50%;
+}
+
+.img1 {
+    float: left;
+    margin-right: 1rem;
+}
+
+.img2 {
+    float: left;
+    margin-right: 1rem;
+}
