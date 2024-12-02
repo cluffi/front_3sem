@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a {
+    color: white;
+}
+
+p {
+    position: relative;
+    left: 50%;
+}
+
+a:hover {
+    color: violet !important;
+}
+
+a:active {
+    color: aqua !important;
+}
+
+a:visited {
+    color: thistle;
+}
+
+section {
+    background-color: thistle;
+}
+
+article {
+    background-color: yellowgreen;
+}
+
+aside {
+    position: relative;
+    top: 0%;
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 24px;
+}
+
+header {
+    padding: 40px;
+    width: 100%;
+    background-color: #404040;
+}
+
+main {
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #2d2d2d;
+}
+
+footer {
+    display: flex;
+    margin-top: auto;
+    padding: 40px;
+    background-color: #1f1f1f;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-height: 10rem;
+}
+
+.wrapper {
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-family: 'Arial', 'Verdana', sans-serif;
+}
+
+.button1 {
+    color: white;
+    background-color: aqua;
+    width: 300px;
+    font-family: inherit;
+    appearance: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background: rgb(0, 200, 200);
+}
+
+.button1:active {
+    background-color: rgb(0, 150, 150);
+}
+
+.button2 {
+    color: white;
+    background-color: plum;
+    box-shadow: 0 5px 0 rgb(110, 80, 120);
+    width: 300px;
+    height: 3rem;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button2:hover {
+    background-color: rgb(221, 160, 221);
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+
+.button2:active {
+    background-color: rgb(110, 80, 120);
+}
+
+.button3 {
+    color: white;
+    background-color: blueviolet;
+    width: 300px;
+    height: 3rem;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button3:hover {
+    box-shadow: 0 5px 15px 0 rgba(138, 43, 226, 1);
+}
+
+.button3:active {
+    transform: scale(0.95);
+    transition: 0.05s;
+}
+
+.button4 {
+    color: white;
+    background-color: mediumvioletred;
+    width: 300px;
+    height: 3rem;
+    padding: 20px;
+    border-radius: 10px;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, mediumvioletred 0%, rgb(255, 55, 67) 51%, mediumvioletred 100%);
+    transition: 0.5s;
+    text-align: center;
+    border: none;
+}
+
+.button4:hover {
+     background-position: right center;
+}
+
+.button4:active {
+    transform: scale(0.95);
+    transition: 0.05s;
+}
+
+@keyframes anim {
+    from {
+        background-color: purple;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        font-size: 0;
+    }
+    to {
+        background-color: purple;
+        width: 200px;
+        height: 200px;
+        border-radius: 50px;
+        font-size: inherit;
+    }
+}
+
+.notifications {
+    position: fixed;
+    right: 100px;
+    bottom: 75px;
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 0;
+}
+
+.notifications:hover {
+    animation-name: anim;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
